@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+    <div class="title"><h1>Clima</h1></div>
+    <form class="pesquisar">
+        <input id="input" type="text">
+        <button class="busca">Buscar</button>
+    </form>
+    <div class="container">
+        <h1 class="cidade">--</h1>
+        <div class="box">
+            <div class="info">
+                <div class="temp">Temperatura</div>
+                <div class="temp-box">
+                        <div class="tempMax">
+                            <div class="temp-max-titulo"><img src="images/up-arrow.png"/></div>
+                            <div class="temp-max-info">--<sup>ºC</sup></div>
+                        </div>
+                        <div class="tempMin">
+                            <div class="temp-min-titulo"><img src="images/down-arrow.png"/></div>
+                            <div class="temp-min-info">--<sup>ºC</sup></div>
+                        </div>
+                    </div>
+                    <div class="weather"><img src="http://openweathermap.org/img/wn/10d@2x.png" /></div>
+                </div>
+                <div class="vento">
+                    <div class="vento-titulo">Vento</div>
+                    <div class="vento-info">--<span>km/h</span></div>
+                    <div class="ventoArea">
+                    <div class="vento-ponto" style="transform: rotate(0deg)"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+
+    <div class="final">Criado por <a href="">Davi Soria</a></div>
+    <script src="assets/script/js.js"></script>
+</body>
+</html>
