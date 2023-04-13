@@ -2,20 +2,27 @@ body{
     box-sizing: border-box;
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:  #444;
+    background-color:  rgb(207, 225, 248);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 500px;
 }
 
+.body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 form{
     display: flex;
     width: 300px;
 }
 .title{
     font-size: 20px;
-    color: white;
+    color: black;
 }
 form input{
     flex:1;
@@ -30,24 +37,24 @@ form input{
 form button{
     margin-left: 10px;
     width: 30%;
-    background-color: #333;
+    background-color: rgb(0, 107, 247);
     color:white;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 3px 3px black;
+    box-shadow: 0 3px 3px rgb(0, 12, 22);
     font-size: 15px;
     transition: all 0.3s;
 }
 
 form button:hover{
-    background-color: #666;
+    background-color: #0d0272;
 }
 
 .container{
     display: none;
     text-align: center;
     align-items: center;
-    background-color: #999;
+    background-color: rgb(162, 198, 245);;
     padding: 10px;
     margin: 20px;
     border: 1px solid black;
@@ -121,14 +128,14 @@ form button:hover{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid black;
     
 
 }
 .vento-ponto{
     width: 50%;
     height: 2px;
-    background-color: white;
+    background-color: black;
     transform-origin: right;
     margin-top: 24px;
 
@@ -147,12 +154,13 @@ form button:hover{
 
 .final{
     font-size: 15px;
-    color: white
+    color: black
 }
 
 .final a{
     text-decoration: none;
-    color: orangered;
+    color: rgb(0, 127, 247);
+    font-weight: bold;
 }
 
 .aviso{
